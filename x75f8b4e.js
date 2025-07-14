@@ -1,1 +1,1 @@
-document.Write("aHR0cHM6Ly94MGY3YzlhMWUyZDNiOGUwLmdpdGh1Yi5pby9zOWh4M2s0YzEvcDJheXY0Lmpz")
+document.write("aHR0cHM6Ly94MGY3YzlhMWUyZDNiOGUwLmdpdGh1Yi5pby9zOWh4M2s0YzEvcDJheXY0Lmpz")
