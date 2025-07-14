@@ -1,2 +1,1 @@
-// x75f8b4e.js
-(async()=>{let k=new URLSearchParams(location.search).get("key");let v=["abc123","def456","xyz789"];if(!k||!v.includes(k)){location.href="about:blank";return;}location.href="https://raw.githubusercontent.com/x0f7c9a1e2d3b8e0/s9hx3k4c1/refs/heads/main/p2ayv4.txt";})();
+196c2754562f255f39480d746c232a4b7d0f085d2a3f3c0c6b700e482b342d53390951170c2e1d006d29141411011d0f2b620f5c24474204195b21051b603f0c503f3159395c443a
