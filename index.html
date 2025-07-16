@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><title></title></head><body><script>
+(function(){
+  var x7d1=function(q){return q.map(function(z,i){return z^(i%5)})};
+  var _0x19f=[17,29,34,101,202,77,83,91];
+  var x3a2=_0x19f.map(function(x){return (x*3+7)%256});
+  var _xmem=new Uint8Array(32);
+  for(let i=0;i<_xmem.length;i++){_xmem[i]=(i*i+91)%256;}
+  var _dbg=Array.from(_xmem).filter(function(x){return x%3==0}).map(function(x){return x.toString(16)});
+  var xq1a=JSON.stringify(_dbg).split("").reverse().join("");
+  var _tmp1={},_tmp2={};
+  for(var k in _xmem){_tmp1[k]=x3a2[k%x3a2.length]^7;}
+  var __fn=function(a,b){return (a<<2)^b};
+  var _loop=0x0;
+  while(_loop<8){
+    _tmp2[_loop]=__fn(_loop,_xmem[_loop]);
+    _loop++;
+  }
+  var _n=Object.keys(_tmp2).map(function(k){return parseInt(k)+_tmp2[k]}).reduce(function(a,b){return a+b},0);
+  var __internal_state=[xq1a,_n,_tmp1].join("|").split("").slice(5,64);
+})();
+</script></body></html>
